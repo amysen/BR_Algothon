@@ -21,7 +21,6 @@ for line in soup.find_all("p", attrs={"class": "title is-5 mathjax"}):
 	line = line.strip()
 	line = line.replace("\n", "")
 	line = line.replace(",", "")
-	line = line.split("originally announced")
 	individualTitles.append(line)
 	
 
